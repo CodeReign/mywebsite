@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+body{
+	background-image: url("file:///C:/Users/HP/Desktop/index/design%20pics/dark1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%100%;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	background-color: rgba(0, 0 , 0 ,0.2);
+	
+    }
+
+
+li {
+    float: left;
+    
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    background-attachment: fixed; 
+
+}
+
+a:link, a:visited {
+    display: block;
+    width: 160px;
+    font-weight: bolder;
+    color: #FFFFFF;
+  
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #eeeeee;
+}
+		/* Bordered form */
+form {
+    border: 3px solid #ff9800;
+    position: absolute;
+    left: 300px;
+    bottom: 50px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #009900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   
+    
+    
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    
+    font-size: 24px;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 200px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+header{
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 36px;
+	margin: 10px;
+    position: absolute;
+    top: 50px;
+    left: 34%;
+	
+}
+
+p{
+	color: #ffffff;
+	font-size: 26px;
+	position: absolute;
+	top: 70px;
+	left: 38%; 
+}
+
+
+
+	</style>
+</head>
+<body>
+
+	<ul>
+  <li><a href="#home" style="color: #ff9800" >Home</a></li>
+  <li><a href="#news" style="color: #009900">News</a></li>
+  <li><a href="#contact" style="color: #009900">Contact</a></li>
+  <li><a href="#about" style="color: #009900">About</a></li>
+</ul>
+
+
+<header>Welcome To Kibarua!!</header>
+<p>All Your Needs Covered!</p>
+
+	 <form action="action_page.php">
+  <div class="imgcontainer">
+    <div class="desc" style="color: #009900">User Login</div>
+  </div>
+
+  <div class="container">
+    <label for="uname" style="color: #ff9800"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw" style="color: #ff9800"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" style="color: #ff9800" style="font-size: 22px" style="font-weight: bold">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="color: #ff9800"> Remember me
+    </label>
+  </div>
+
+  <div class="container">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw" style="color: #ffffff">Forgot <a href="#" style="color: #009900">password?</a></span>
+  </div>
+</form> 
+
+</body>
+</html>
